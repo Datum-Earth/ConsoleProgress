@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBus", "ConsoleBus\ConsoleBus.csproj", "{EFC104DA-A1C8-4715-B394-041CA035DBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBus.Test", "ConsoleBus.Test\ConsoleBus.Test.csproj", "{E2C73A2E-54CF-4E3B-A809-40A6EC53FD24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC104DA-A1C8-4715-B394-041CA035DBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC104DA-A1C8-4715-B394-041CA035DBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC104DA-A1C8-4715-B394-041CA035DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC104DA-A1C8-4715-B394-041CA035DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C73A2E-54CF-4E3B-A809-40A6EC53FD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C73A2E-54CF-4E3B-A809-40A6EC53FD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C73A2E-54CF-4E3B-A809-40A6EC53FD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C73A2E-54CF-4E3B-A809-40A6EC53FD24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
