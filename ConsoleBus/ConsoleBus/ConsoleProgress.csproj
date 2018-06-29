@@ -7,8 +7,8 @@
     <ProjectGuid>{EFC104DA-A1C8-4715-B394-041CA035DBEB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleBus</RootNamespace>
-    <AssemblyName>ConsoleBus</AssemblyName>
+    <RootNamespace>ConsoleProgress</RootNamespace>
+    <AssemblyName>ConsoleProgress</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bus.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="ControllerService.cs" />
+    <Compile Include="Interfaces\ICustomProgressProcess.cs" />
+    <Compile Include="Interfaces\IProgressCriteria.cs" />
+    <Compile Include="Interfaces\IProgressProcess.cs" />
+    <Compile Include="Objects\ProcessObject.cs" />
+    <Compile Include="ProgressAnalyzer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

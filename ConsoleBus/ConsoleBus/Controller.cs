@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleBus
+namespace ConsoleProgress
 {
-    public class Bus
+    internal class Controller
     {
     }
 }
