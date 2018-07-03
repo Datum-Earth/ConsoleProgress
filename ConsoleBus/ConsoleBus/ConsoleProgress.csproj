@@ -42,10 +42,10 @@
   <ItemGroup>
     <Compile Include="Controller.cs" />
     <Compile Include="ControllerService.cs" />
-    <Compile Include="Interfaces\ICustomProgressProcess.cs" />
     <Compile Include="Interfaces\IProgressCriteria.cs" />
     <Compile Include="Interfaces\IProgressProcess.cs" />
     <Compile Include="Objects\ProcessObject.cs" />
+    <Compile Include="Objects\ProgressBar.cs" />
     <Compile Include="ProgressAnalyzer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
